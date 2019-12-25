@@ -1,0 +1,42 @@
+:root {
+  --gray-color: #626262;
+  --focus-color: #03a9f4;
+  --other-color: #b4ad9e;
+  --main-font: "Playfair Display", serif;
+  --other-font: "Ubuntu", sans-serif;
+}
+.body {
+  color: var(--gray-color);
+}
+.nav-link {
+  font-size: 14px;
+  font-family: var(--main-font);
+  line-height: 1.7;
+  color: var(--gray-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--focus-color);
+}
+.text {
+  font-size: 14px;
+  line-height: 1.2;
+  font-family: var(--other-font);
+  color: var(--other-color);
+}
+.title {
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+.description {
+  font-size: 14px;
+  line-height: 1.7;
+  font-family: var(--main-font);
+}
+.button-below {
+  font-size: 20px;
+  line-height: 1.2;
+  font-family: var(--main-font);
+  color: var(--gray-color);
+}
