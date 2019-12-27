@@ -4,6 +4,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>goit-markup-hw-03</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
@@ -12,8 +13,8 @@
   </head>
 
   <body class="body">
-    <header>
-      <nav>
+    <header class="header">
+      <nav class="menu">
         <ul class="top-nav">
           <li class="nav-list"><a class="nav-link" href="">LIFESTYLE</a></li>
           <li class="nav-list"><a class="nav-link" href="">PHOTODIARY</a></li>
@@ -23,11 +24,10 @@
       </nav>
     </header>
 
-    <main>
-      <section>
+    <section class="gallery">
         <ul class="article">
           <li class="item">
-            <img src="./images/image-1.jpg" alt="festival" width="480" />
+            <img class="img" src="./images/image-1.jpg" alt="festival" />
             <p class="text">LIFESTYLE</p>
             <h2 class="title">More than just a music festival</h2>
             <p class="description">
@@ -38,7 +38,7 @@
             </p>
           </li>
           <li class="item">
-            <img src="./images/image-2.jpg" alt="coffee" width="480" />
+            <img class="img" src="./images/image-2.jpg" alt="coffee" />
             <p class="text">LIFESTYLE</p>
             <h2 class="title">Life tastes better with coffee</h2>
             <p class="description">
@@ -49,7 +49,7 @@
             </p>
           </li>
           <li class="item">
-            <img src="./images/image-3.jpg" alt="America" width="480" />
+            <img class="img" src="./images/image-3.jpg" alt="America" />
             <p class="text">PHOTODIARY</p>
             <h2 class="title">American dream</h2>
             <p class="description">
@@ -60,7 +60,7 @@
             </p>
           </li>
           <li class="item">
-            <img src="./images/image-4.jpg" alt="Alps" width="480" />
+            <img class="img" src="./images/image-4.jpg" alt="Alps" />
             <p class="text">PHOTODIARY</p>
             <h2 class="title">A day exploring the Alps</h2>
             <p class="description">
@@ -71,7 +71,7 @@
             </p>
           </li>
           <li class="item">
-            <img src="./images/image-5.jpg" alt="Girl" width="480" />
+            <img class="img" src="./images/image-5.jpg" alt="Girl" />
             <p class="text">LIFESTYLE</p>
             <h2 class="title">Top 10 song for running</h2>
             <p class="description">
@@ -82,7 +82,7 @@
             </p>
           </li>
           <li class="item">
-            <img src="./images/image-6.jpg" alt="Road" width="480" />
+            <img class="img" src="./images/image-6.jpg" alt="Road" />
             <p class="text">LIFESTYLE</p>
             <h2 class="title">Cold winter days</h2>
             <p class="description">
@@ -93,8 +93,8 @@
             </p>
           </li>
         </ul>
-        <button class="button-below">Load more</button>
       </section>
+      <button class="button-below">Load more</button>
     </main>
   </body>
 </html>
